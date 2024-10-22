@@ -1,28 +1,31 @@
-// Sample vocabulary data with multiple emojis
 const vocabulary = [
 	{
-    	emoji: ['👋', '🌞'],
-    	chinese: '你好',
-    	pinyin: 'nǐ hǎo',
-    	english: 'hello',
-    	romanian: 'salut',
-    	german: 'hallo'
+	  group: 'Greetings',
+	  emoji: ['👋', '🌞'],
+	  chinese: '你好',
+	  pinyin: 'nǐ hǎo',
+	  english: 'hello',
+	  romanian: 'salut',
+	  german: 'hallo'
 	},
 	{
-    	emoji: ['🙏'],
-    	chinese: '谢谢',
-    	pinyin: 'xièxie',
-    	english: 'thank you',
-    	romanian: 'mulțumesc',
-    	german: 'danke'
+	  group: 'Thanks',
+	  emoji: ['🙏'],
+	  chinese: '谢谢',
+	  pinyin: 'xièxie',
+	  english: 'thank you',
+	  romanian: 'mulțumesc',
+	  german: 'danke'
 	},
+	// Add more vocabulary entries here with or without a group
 	{
-        emoji: ['🏢', '👔'],
-        chinese: '职业',
-        pinyin: 'zhíyè',
-        english: 'Profession',
-        romanian: 'Profesiune',
-        german: 'Beruf'
+	  // No group property means this item will go to the "Ungrouped" section
+	  emoji: ['🏢', '👔'],
+	  chinese: '职业',
+	  pinyin: 'zhíyè',
+	  english: 'Profession',
+	  romanian: 'Profesiune',
+	  german: 'Beruf'
     },
     {
         emoji: ['🧑‍💼', '💼'],
@@ -97,46 +100,69 @@ const vocabulary = [
         german: 'Verkäufer'
     },
 	// Add more vocabulary entries here
-];
-
-// Function to display vocabulary
-function displayVocabulary() {
+  ];
+  
+  function displayVocabulary() {
 	const vocabList = document.getElementById('vocabulary-list');
+	const groups = {};
+  
+	// Group vocabulary items
 	vocabulary.forEach(item => {
-    	const vocabItem = document.createElement('div');
-    	vocabItem.classList.add('vocab-item');
-
-    	const emojiHTML = item.emoji.map(e => `<span class="emoji">${e}</span>`).join('');
-
-    	vocabItem.innerHTML = `
-        	<div class="vocab-content">
-            	<div class="speaker-icon">🔊</div>
-            	<div class="chinese">
-                	${emojiHTML}
-                	<span class="chinese-character">${item.chinese}</span>
-                	<span class="pinyin">${item.pinyin}</span>
-            	</div>
-            	<div class="translations">
-                	<div class="translation translation-english">${item.english}</div>
-                	<div class="translation translation-romanian">${item.romanian}</div>
-                	<div class="translation translation-german">${item.german}</div>
-            	</div>
-        	</div>
-    	`;
-
-    	vocabList.appendChild(vocabItem);
+	  const group = item.group || 'Ungrouped';
+	  if (!groups[group]) {
+		groups[group] = [];
+	  }
+	  groups[group].push(item);
 	});
-}
-
-// Call function to display the vocabulary on page load
-window.onload = displayVocabulary;
-
-// Toggle Day/Night Mode (Placeholder functionality)
-document.getElementById('toggle-mode').addEventListener('click', () => {
-	alert('Day/Night Mode toggle functionality to be implemented.');
-});
-
-// Save Favorites (Placeholder functionality)
-document.getElementById('save-favorites').addEventListener('click', () => {
-	alert('Save Favorites functionality to be implemented.');
-});
+  
+	// Display grouped vocabulary
+	Object.keys(groups).forEach(groupName => {
+	  // Create a section for each group
+	  const groupSection = document.createElement('div');
+	  groupSection.classList.add('group-section');
+  
+	  const groupHeader = document.createElement('h2');
+	  groupHeader.classList.add('group-header');
+	  groupHeader.textContent = groupName;
+  
+	  // Add toggle functionality to the header
+	  groupHeader.addEventListener('click', () => {
+		const vocabItems = groupSection.querySelectorAll('.vocab-item');
+		vocabItems.forEach(item => {
+		  item.classList.toggle('hidden');
+		});
+	  });
+  
+	  groupSection.appendChild(groupHeader);
+  
+	  groups[groupName].forEach(item => {
+		const vocabItem = document.createElement('div');
+		vocabItem.classList.add('vocab-item');
+  
+		const emojiHTML = item.emoji.map(e => `<span class="emoji">${e}</span>`).join('');
+  
+		vocabItem.innerHTML = `
+		<div class="vocab-content">
+		  <div class="speaker-icon">🔊</div>
+		  <div class="chinese">
+			${emojiHTML}
+			<span class="chinese-character">${item.chinese}</span>
+			<span class="pinyin">${item.pinyin}</span>
+		  </div>
+		  <div class="translations">
+			<div class="translation translation-english">${item.english}</div>
+			<div class="translation translation-romanian">${item.romanian}</div>
+			<div class="translation translation-german">${item.german}</div>
+		  </div>
+		</div>
+		`;
+		groupSection.appendChild(vocabItem);
+	  });
+  
+	  vocabList.appendChild(groupSection);
+	});
+  }
+  
+  // Call function to display the vocabulary on page load
+  window.onload = displayVocabulary;
+  
