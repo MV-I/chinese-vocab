@@ -82,22 +82,20 @@ h1::after {
 }
 
 .vocab-item {
-	width: 100%; /* Make items full-width in mobile */
-	max-width: 300px; /* Limit the max width */
-	margin: 10px auto; /* Center items horizontally */
-	padding: 15px;
-	background: linear-gradient(135deg, rgba(75, 0, 130, 0.8), rgba(138, 43, 226, 0.8));
-	border-radius: 15px;
-	box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
-	position: relative;
-	overflow: hidden;
-	transition: transform 0.3s ease;
-	text-align: center; /* Center the content */
-  }
+    width: 48%; /* Making the cards wider for large screens */
+    background: linear-gradient(135deg, rgba(75,0,130,0.8), rgba(138,43,226,0.8));
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(138,43,226,0.5);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
 
 .vocab-item:hover {
-	transform: translateY(-5px);
-	box-shadow: 0 0 25px rgba(138,43,226,0.7);
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(138,43,226,0.7);
 }
 
 .vocab-item::before {
@@ -218,7 +216,7 @@ h1::after {
 	cursor: pointer;
 	margin-bottom: 20px;
 	transition: color 0.3s ease;
-	text-align: center; /* Center group headers */
+	text-align: flex-start; /* Center group headers */
   }
   
   .group-header:hover {
@@ -244,12 +242,13 @@ h1::after {
 /* Responsive adjustments */
 @media (max-width: 1024px) {
 	#vocabulary-list {
-    	flex-direction: column;
-	}
+        flex-direction: column;
+    }
 
-	.vocab-item {
-		width: 30%; /* 3 items per row on larger screens */
-	  }
+    .vocab-item {
+        width: 100%; /* Adjust for smaller screens to 1 column */
+        margin-bottom: 15px;
+    }
 
 	.buttons {
     	flex-direction: column;
@@ -267,55 +266,56 @@ h1::after {
 	}
 
 	.vocab-item {
-		width: 48%; /* 2 items per row on tablets */
-		display: inline-block;
-	  }
+        padding: 10px;
+        margin-bottom: 10px;
+    }
 
 	.chinese {
-    	font-size: 1.2rem;
-	}
+        font-size: 1.2rem;
+    }
 
 	.pinyin {
-    	font-size: 0.9rem;
-	}
+        font-size: 0.9rem;
+    }
 
-	.translations {
-    	flex-direction: column;
-    	align-items: center;
-	}
+    .translations {
+        flex-direction: column;
+        align-items: center;
+    }
 
-	.translation {
-    	margin-top: 5px;
-	}
+    .translation {
+        margin-top: 5px;
+    }
 }
 
+/* For very small devices */
 @media (max-width: 480px) {
-	body {
-    	padding: 10px;
-	}
+    body {
+        padding: 10px;
+    }
 
-	h1 {
-    	font-size: 1.5rem;
-	}
+    h1 {
+        font-size: 1.5rem;
+    }
 
-	.buttons button {
-    	width: 100%;
-    	margin-bottom: 10px;
-	}
+    .buttons button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 
-	.chinese {
-    	font-size: 1rem;
-	}
+    .chinese {
+        font-size: 1rem;
+    }
 
-	.pinyin {
-    	font-size: 0.8rem;
-	}
+    .pinyin {
+        font-size: 0.8rem;
+    }
 
-	.translations {
-    	flex-direction: column;
-	}
+    .translations {
+        flex-direction: column;
+    }
 
-	.translation {
-    	margin-top: 5px;
-	}
+    .translation {
+        margin-top: 5px;
+    }
 }
