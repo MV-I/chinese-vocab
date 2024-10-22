@@ -250,6 +250,11 @@ h1::after {
 		grid-template-columns: repeat(1, 1fr); /* Switch to 1 column on smaller screens */
 		grid-template-rows: auto; /* Adjust rows for single column layout */
 	  }
+
+	  .group-section {
+		display: flex;
+		flex-direction: column;
+	  }
 	  
 	#vocabulary-list {
         grid-template-columns: repeat(1, 1fr); /* 1 column for smaller screens */
@@ -270,6 +275,11 @@ h1::after {
 	h1 {
     	font-size: 2rem;
 	}
+
+	.group-section {
+		display: flex;
+		flex-direction: column;
+	  }
 
 	.buttons button {
     	width: 80%;
@@ -307,6 +317,11 @@ h1::after {
     h1 {
         font-size: 1.5rem;
     }
+
+	.group-section {
+		display: flex;
+		flex-direction: column;
+	  }
 
     .buttons button {
         width: 100%;
