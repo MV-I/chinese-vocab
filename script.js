@@ -16,6 +16,86 @@ const vocabulary = [
     	romanian: 'mulțumesc',
     	german: 'danke'
 	},
+	{
+        emoji: ['🏢', '👔'],
+        chinese: '职业',
+        pinyin: 'zhíyè',
+        english: 'Profession',
+        romanian: 'Profesiune',
+        german: 'Beruf'
+    },
+    {
+        emoji: ['🧑‍💼', '💼'],
+        chinese: '经理',
+        pinyin: 'jīnglǐ',
+        english: 'Manager',
+        romanian: 'Manager',
+        german: 'Manager'
+    },
+    {
+        emoji: ['🧑‍⚕️', '🧑‍🤝‍🧑'],
+        chinese: '护理员',
+        pinyin: 'hùlǐ yuán',
+        english: 'Caregiver',
+        romanian: 'Îngrijitor',
+        german: 'Betreuer'
+    },
+    {
+        emoji: ['🧑‍🍳', '🍽️'],
+        chinese: '服务员',
+        pinyin: 'fúwùyuán',
+        english: 'Waiter',
+        romanian: 'Chelner',
+        german: 'Kellner'
+    },
+    {
+        emoji: ['🛠️', '👷'],
+        chinese: '工程师',
+        pinyin: 'gōngchéngshī',
+        english: 'Engineer',
+        romanian: 'Inginer',
+        german: 'Ingenieur'
+    },
+    {
+        emoji: ['💻', '🖥️'],
+        chinese: '电脑工程师',
+        pinyin: 'diànnǎo gōngchéngshī',
+        english: 'Computer Engineer',
+        romanian: 'Inginer de calculatoare',
+        german: 'Computeringenieur'
+    },
+    {
+        emoji: ['🩺', '👨‍⚕️'],
+        chinese: '医生',
+        pinyin: 'yīshēng',
+        english: 'Doctor',
+        romanian: 'Doctor',
+        german: 'Arzt'
+    },
+    {
+        emoji: ['🗂️', '🖊️'],
+        chinese: '秘书',
+        pinyin: 'mìshū',
+        english: 'Secretary',
+        romanian: 'Secretar',
+        german: 'Sekretär'
+    },
+    {
+        emoji: ['🎓', '📚'],
+        chinese: '学生',
+        pinyin: 'xuéshēng',
+        english: 'Student',
+        romanian: 'Student',
+        german: 'Student'
+    },
+    {
+        emoji: ['🛍️', '💰'],
+        chinese: '售货员',
+        pinyin: 'shòuhuòyuán',
+        english: 'Salesperson',
+        romanian: 'Vânzător',
+        german: 'Verkäufer'
+    },
 	// Add more vocabulary entries here
 ];
 
