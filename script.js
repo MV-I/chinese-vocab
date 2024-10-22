@@ -1,25 +1,7 @@
 const vocabulary = [
-	{
-	  group: 'Greetings',
-	  emoji: ['👋', '🌞'],
-	  chinese: '你好',
-	  pinyin: 'nǐ hǎo',
-	  english: 'hello',
-	  romanian: 'salut',
-	  german: 'hallo'
-	},
-	{
-	  group: 'Thanks',
-	  emoji: ['🙏'],
-	  chinese: '谢谢',
-	  pinyin: 'xièxie',
-	  english: 'thank you',
-	  romanian: 'mulțumesc',
-	  german: 'danke'
-	},
 	// Add more vocabulary entries here with or without a group
 	{
-	  // No group property means this item will go to the "Ungrouped" section
+	  group: 'Professions',
 	  emoji: ['🏢', '👔'],
 	  chinese: '职业',
 	  pinyin: 'zhíyè',
@@ -28,6 +10,7 @@ const vocabulary = [
 	  german: 'Beruf'
     },
     {
+		group: 'Professions',
         emoji: ['🧑‍💼', '💼'],
         chinese: '经理',
         pinyin: 'jīnglǐ',
@@ -36,6 +19,7 @@ const vocabulary = [
         german: 'Manager'
     },
     {
+		group: 'Professions',
         emoji: ['🧑‍⚕️', '🧑‍🤝‍🧑'],
         chinese: '护理员',
         pinyin: 'hùlǐ yuán',
@@ -44,7 +28,8 @@ const vocabulary = [
         german: 'Betreuer'
     },
     {
-        emoji: ['🧑‍🍳', '🍽️'],
+	    group: 'Professions',
+		emoji: ['🧑‍🍳', '🍽️'],
         chinese: '服务员',
         pinyin: 'fúwùyuán',
         english: 'Waiter',
@@ -52,7 +37,8 @@ const vocabulary = [
         german: 'Kellner'
     },
     {
-        emoji: ['🛠️', '👷'],
+	    group: 'Professions',
+		emoji: ['🛠️', '👷'],
         chinese: '工程师',
         pinyin: 'gōngchéngshī',
         english: 'Engineer',
@@ -60,7 +46,8 @@ const vocabulary = [
         german: 'Ingenieur'
     },
     {
-        emoji: ['💻', '🖥️'],
+	    group: 'Professions',
+		emoji: ['💻', '🖥️'],
         chinese: '电脑工程师',
         pinyin: 'diànnǎo gōngchéngshī',
         english: 'Computer Engineer',
@@ -68,7 +55,8 @@ const vocabulary = [
         german: 'Computeringenieur'
     },
     {
-        emoji: ['🩺', '👨‍⚕️'],
+	    group: 'Professions',
+		emoji: ['🩺', '👨‍⚕️'],
         chinese: '医生',
         pinyin: 'yīshēng',
         english: 'Doctor',
@@ -76,7 +64,8 @@ const vocabulary = [
         german: 'Arzt'
     },
     {
-        emoji: ['🗂️', '🖊️'],
+	    group: 'Professions',
+		emoji: ['🗂️', '🖊️'],
         chinese: '秘书',
         pinyin: 'mìshū',
         english: 'Secretary',
@@ -84,7 +73,8 @@ const vocabulary = [
         german: 'Sekretär'
     },
     {
-        emoji: ['🎓', '📚'],
+	    group: 'Professions',
+		emoji: ['🎓', '📚'],
         chinese: '学生',
         pinyin: 'xuéshēng',
         english: 'Student',
@@ -92,13 +82,32 @@ const vocabulary = [
         german: 'Student'
     },
     {
-        emoji: ['🛍️', '💰'],
+	    group: 'Professions',
+		emoji: ['🛍️', '💰'],
         chinese: '售货员',
         pinyin: 'shòuhuòyuán',
         english: 'Salesperson',
         romanian: 'Vânzător',
         german: 'Verkäufer'
     },
+	{
+		group: 'Greetings',
+		emoji: ['👋', '🌞'],
+		chinese: '你好',
+		pinyin: 'nǐ hǎo',
+		english: 'hello',
+		romanian: 'salut',
+		german: 'hallo'
+	  },
+	  {
+		group: 'Thanks',
+		emoji: ['🙏'],
+		chinese: '谢谢',
+		pinyin: 'xièxie',
+		english: 'thank you',
+		romanian: 'mulțumesc',
+		german: 'danke'
+	  },
 	// Add more vocabulary entries here
   ];
   
