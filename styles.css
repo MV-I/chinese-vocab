@@ -27,7 +27,7 @@ body {
 .container {
 	max-width: 100%; /* Ensure container takes full width of the page */
 	margin: 0 auto;
-	padding: 30px;
+	padding: 2.5% 5%;
 	position: relative;
 	overflow: hidden; /* Prevent overflow */
   }
@@ -97,26 +97,6 @@ h1::after {
 	transform: translateY(-5px);
 	box-shadow: 0 0 25px rgba(138,43,226,0.7);
   }
-
-.vocab-item::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: -75%;
-	width: 50%;
-	height: 100%;
-	background: rgba(255,255,255,0.05);
-	transform: skewX(-25deg);
-	transition: left 0.7s ease;
-}
-
-.vocab-item:hover::before {
-    left: 125%; /* Move it out of view when hovered */
-}
-
-.vocab-item:hover::before {
-	left: 125%;
-}
 
 .vocab-content {
 	position: relative;
@@ -250,16 +230,6 @@ h1::after {
 /* Responsive adjustments */
 @media (max-width: 1024px) {
 
-	.vocab-item::before {
-        left: -200%; /* Make it start farther to the left */
-        width: 75%;  /* Increase width on smaller screens */
-        transition: left 1s ease; /* Slow down the transition */
-    }
-
-	.vocab-item:hover::before {
-        left: 150%; /* Push it farther out of view on hover */
-    }
-
 	.group-section {
 		grid-template-columns: repeat(1, 1fr); /* Switch to 1 column on smaller screens */
 		grid-template-rows: auto; /* Adjust rows for single column layout */
@@ -286,12 +256,6 @@ h1::after {
 }
 
 @media (max-width: 768px) {
-
-	.vocab-item::before {
-        left: -200%; /* Make it start farther to the left */
-        width: 75%;  /* Increase width on smaller screens */
-        transition: left 1s ease; /* Slow down the transition */
-    }
 	
 	h1 {
     	font-size: 2rem;
@@ -331,16 +295,6 @@ h1::after {
 
 /* For very small devices */
 @media (max-width: 480px) {
-
-	.vocab-item::before {
-        left: -300%; /* Make it start farther to the left */
-        width: 75%;  /* Increase width on smaller screens */
-        transition: left 1s ease; /* Slow down the transition */
-    }
-
-	.vocab-item:hover::before {
-        left: 150%; /* Push it farther out of view on hover */
-    }
 
     body {
         padding: 10px;
