@@ -1,7 +1,7 @@
 const vocabulary = [
   // Add more vocabulary entries here with or without a group
   {
-    group: "Tone Practice",
+    group: "Basic Communication & Greetings",
     emoji: ["🟩"],
     chinese: "妈",
     pinyin: "mā",
@@ -10,7 +10,7 @@ const vocabulary = [
     german: "fest",
   },
   {
-    group: "Tone Practice",
+    group: "Basic Communication & Greetings",
     emoji: ["🟦"],
     chinese: "麻",
     pinyin: "má",
@@ -19,7 +19,7 @@ const vocabulary = [
     german: "? (question-like tone)",
   },
   {
-    group: "Tone Practice",
+    group: "Basic Communication & Greetings",
     emoji: ["🟨"],
     chinese: "马",
     pinyin: "mǎ",
@@ -28,7 +28,7 @@ const vocabulary = [
     german: "deep and longer",
   },
   {
-    group: "Tone Practice",
+    group: "Basic Communication & Greetings",
     emoji: ["🟥"],
     chinese: "骂",
     pinyin: "mà",
@@ -37,7 +37,7 @@ const vocabulary = [
     german: "abrupt",
   },
   {
-    group: "Greetings and Questions",
+    group: "Basic Communication & Greetings",
     emoji: ["👋"],
     chinese: "你好",
     pinyin: "nǐ hǎo!",
@@ -46,7 +46,7 @@ const vocabulary = [
     german: "Guten Morgen, Tag, Abend...",
   },
   {
-    group: "Greetings and Questions",
+    group: "Basic Communication & Greetings",
     emoji: ["🤔"],
     chinese: "你好吗?",
     pinyin: "nǐ hǎo ma?",
@@ -55,7 +55,7 @@ const vocabulary = [
     german: "Wie geht es dir?",
   },
   {
-    group: "Greetings and Questions",
+    group: "Basic Communication & Greetings",
     emoji: ["😊"],
     chinese: "我很好!",
     pinyin: "wǒ hěn hǎo!",
@@ -64,7 +64,7 @@ const vocabulary = [
     german: "Mir geht es gut!",
   },
   {
-    group: "Greetings and Questions",
+    group: "Basic Communication & Greetings",
     emoji: ["🙏"],
     chinese: "谢谢",
     pinyin: "xiè xiè!",
@@ -73,7 +73,7 @@ const vocabulary = [
     german: "Danke",
   },
   {
-    group: "Greetings and Questions",
+    group: "Basic Communication & Greetings",
     emoji: ["👋"],
     chinese: "再见",
     pinyin: "zài jiàn!",
@@ -235,7 +235,7 @@ const vocabulary = [
     german: "Verkäufer",
   },
   {
-    group: "Basic Phrases",
+    group: "Common Phrases",
     emoji: ["🤨"],
     chinese: "你叫什么名字?",
     pinyin: "Nǐ jiào shénme míngzì?",
@@ -244,7 +244,7 @@ const vocabulary = [
     german: "Wie heißt du?",
   },
   {
-    group: "Basic Phrases",
+    group: "Common Phrases",
     emoji: ["🧑"],
     chinese: "我叫王伟",
     pinyin: "Wǒ jiào Wáng Wěi",
@@ -253,7 +253,7 @@ const vocabulary = [
     german: "Mein Name ist Wang Wei.",
   },
   {
-    group: "Basic Phrases",
+    group: "Common Phrases",
     emoji: ["🤵"],
     chinese: "您贵姓?",
     pinyin: "Nín guì xìng?",
@@ -262,7 +262,7 @@ const vocabulary = [
     german: "Wie ist Ihr Nachname?",
   },
   {
-    group: "Basic Phrases",
+    group: "Common Phrases",
     emoji: ["🏷️"],
     chinese: "我姓王",
     pinyin: "Wǒ xìng Wáng",
@@ -271,79 +271,7 @@ const vocabulary = [
     german: "Mein Nachname ist Wang.",
   },
   {
-    group: "Common Questions",
-    emoji: ["👨‍🏫"],
-    chinese: "你是老师吗?",
-    pinyin: "Nǐ shì lǎoshī ma?",
-    english: "Are you a teacher?",
-    romanian: "Ești profesor?",
-    german: "Bist du Lehrer?",
-  },
-  {
-    group: "Common Questions",
-    emoji: ["📑"],
-    chinese: "不是, 我是秘书",
-    pinyin: "Bù shì, wǒ shì mìshū",
-    english: "No, I am a secretary.",
-    romanian: "Nu, sunt secretar.",
-    german: "Nein, ich bin Sekretär.",
-  },
-  {
-    group: "Common Questions",
-    emoji: ["🧐"],
-    chinese: "你是学生吗?",
-    pinyin: "Nǐ shì xuéshēng ma?",
-    english: "Are you a student?",
-    romanian: "Ești student?",
-    german: "Bist du Student?",
-  },
-  {
-    group: "Common Questions",
-    emoji: ["🙅‍♂️"],
-    chinese: "不是, 我不是学生",
-    pinyin: "Bù shì, wǒ bù shì xuéshēng",
-    english: "No, I am not a student.",
-    romanian: "Nu, nu sunt student.",
-    german: "Nein, ich bin kein Student.",
-  },
-  {
-    group: "Common Questions",
-    emoji: ["🤔"],
-    chinese: "你叫什么?",
-    pinyin: "Nǐ jiào shénme?",
-    english: "What do you call yourself?",
-    romanian: "Cum te numești?",
-    german: "Wie heißt du?",
-  },
-  {
-    group: "Common Questions",
-    emoji: ["🧑"],
-    chinese: "我叫王刚",
-    pinyin: "Wǒ jiào Wáng Gāng",
-    english: "My name is Wang Gang.",
-    romanian: "Mă numesc Wang Gang.",
-    german: "Mein Name ist Wang Gang.",
-  },
-  {
-    group: "Common Questions",
-    emoji: ["🛠️"],
-    chinese: "您是工程师吗?",
-    pinyin: "Nín shì gōngchéngshī ma?",
-    english: "Are you an engineer?",
-    romanian: "Sunteți inginer?",
-    german: "Sind Sie Ingenieur?",
-  },
-  {
-    group: "Common Questions",
-    emoji: ["❌", "👨‍🏫"],
-    chinese: "不是, 我不是老师",
-    pinyin: "Bù, wǒ bù shì lǎoshī",
-    english: "No, I am not a teacher.",
-    romanian: "Nu, nu sunt profesor.",
-    german: "Nein, ich bin kein Lehrer.",
-  },
-  {
-    group: "Other Useful Vocabulary",
+    group: "Common Vocabulary",
     emoji: ["🤷‍♂️"],
     chinese: "马马虎虎",
     pinyin: "mǎmǎ hūhū",
@@ -352,16 +280,7 @@ const vocabulary = [
     german: "so la la",
   },
   {
-    group: "Other Useful Vocabulary",
-    emoji: ["🏯"],
-    chinese: "汉语",
-    pinyin: "Hàn yǔ",
-    english: "Mandarin",
-    romanian: "Limba chineză",
-    german: "Hauptsprache",
-  },
-  {
-    group: "Other Useful Vocabulary",
+    group: "Common Phrases",
     emoji: ["❣️"],
     chinese: "你爱我吗?",
     pinyin: "nǐ ài wǒ ma?",
@@ -370,7 +289,7 @@ const vocabulary = [
     german: "Liebst du mich?",
   },
   {
-    group: "Other Useful Vocabulary",
+    group: "Common Phrases",
     emoji: ["🍲"],
     chinese: "我饿",
     pinyin: "wǒ è",
@@ -379,7 +298,7 @@ const vocabulary = [
     german: "Ich bin hungrig",
   },
   {
-    group: "Other Useful Vocabulary",
+    group: "Common Phrases",
     emoji: ["💻"],
     chinese: "你也忙吗?",
     pinyin: "nǐ yě máng ma?",
@@ -388,7 +307,7 @@ const vocabulary = [
     german: "Bist du auch beschäftigt?",
   },
   {
-    group: "Characters and Radicals",
+    group: "Common Vocabulary",
     emoji: ["🐣"],
     chinese: "小",
     pinyin: "xiǎo",
@@ -397,7 +316,7 @@ const vocabulary = [
     german: "Herzradikal",
   },
   {
-    group: "Characters and Radicals",
+    group: "Common Vocabulary",
     emoji: ["👁️"],
     chinese: "目",
     pinyin: "mù",
@@ -406,7 +325,7 @@ const vocabulary = [
     german: "Auge",
   },
   {
-    group: "Characters and Radicals",
+    group: "Common Vocabulary",
     emoji: ["👨"],
     chinese: "男",
     pinyin: "nán",
@@ -415,7 +334,7 @@ const vocabulary = [
     german: "Mann",
   },
   {
-    group: "Characters and Radicals",
+    group: "Common Vocabulary",
     emoji: ["👩"],
     chinese: "女",
     pinyin: "nǚ",
@@ -424,7 +343,7 @@ const vocabulary = [
     german: "Frau",
   },
   {
-    group: "Adjectives and Particles",
+    group: "Common Vocabulary",
     emoji: ["🌟"],
     chinese: "很",
     pinyin: "hěn",
@@ -433,7 +352,7 @@ const vocabulary = [
     german: "sehr",
   },
   {
-    group: "Adjectives and Particles",
+    group: "Common Vocabulary",
     emoji: ["➕"],
     chinese: "也",
     pinyin: "yě",
@@ -442,7 +361,7 @@ const vocabulary = [
     german: "auch",
   },
   {
-    group: "Adjectives and Particles",
+    group: "Common Vocabulary",
     emoji: ["❓"],
     chinese: "吗",
     pinyin: "ma",
@@ -451,7 +370,7 @@ const vocabulary = [
     german: "Fragepartikel",
   },
   {
-    group: "Adjectives and Particles",
+    group: "Common Vocabulary",
     emoji: ["🔄"],
     chinese: "呢",
     pinyin: "ne",
@@ -460,7 +379,7 @@ const vocabulary = [
     german: "Fragepartikel",
   },
   {
-    group: "Emotions and States",
+    group: "Common Vocabulary",
     emoji: ["😫"],
     chinese: "累",
     pinyin: "lěi",
@@ -469,7 +388,7 @@ const vocabulary = [
     german: "müde",
   },
   {
-    group: "Emotions and States",
+    group: "Common Vocabulary",
     emoji: ["📆"],
     chinese: "忙",
     pinyin: "máng",
@@ -478,7 +397,7 @@ const vocabulary = [
     german: "beschäftigt",
   },
   {
-    group: "Emotions and States",
+    group: "Common Vocabulary",
     emoji: ["🍲"],
     chinese: "饿",
     pinyin: "è",
@@ -487,7 +406,7 @@ const vocabulary = [
     german: "hungrig",
   },
   {
-    group: "Emotions and States",
+    group: "Common Vocabulary",
     emoji: ["💦"],
     chinese: "渴",
     pinyin: "kě",
@@ -496,7 +415,7 @@ const vocabulary = [
     german: "durstig",
   },
   {
-    group: "Common Actions",
+    group: "Common Vocabulary",
     emoji: ["❤️"],
     chinese: "爱",
     pinyin: "ài",
@@ -505,7 +424,7 @@ const vocabulary = [
     german: "lieben",
   },
   {
-    group: "Common Actions",
+    group: "Common Vocabulary",
     emoji: ["👍"],
     chinese: "是",
     pinyin: "shì",
@@ -514,7 +433,7 @@ const vocabulary = [
     german: "sein",
   },
   {
-    group: "Common Actions",
+    group: "Common Vocabulary",
     emoji: ["👎"],
     chinese: "不",
     pinyin: "bù",
@@ -523,7 +442,7 @@ const vocabulary = [
     german: "nein",
   },
   {
-    group: "Common Actions",
+    group: "Common Vocabulary",
     emoji: ["💧"],
     chinese: "水",
     pinyin: "shuǐ",
@@ -532,13 +451,373 @@ const vocabulary = [
     german: "Wasser",
   },
   {
-    group: "Common Actions",
-    emoji: ["📖"],
-    chinese: "中文",
-    pinyin: "zhōng wén",
-    english: "Chinese language",
-    romanian: "limba chineză",
-    german: "Chinesische Sprache",
+    group: "Introduce Yourself",
+    emoji: ["👋"],
+    chinese: "你好",
+    pinyin: "nǐ hǎo",
+    english: "Hello",
+    romanian: "Salut",
+    german: "Hallo",
+  },
+  {
+    group: "Introduce Yourself",
+    emoji: ["🙂"],
+    chinese: "请问，你叫什么名字？",
+    pinyin: "qǐng wèn, nǐ jiào shénme míngzi?",
+    english: "May I ask, what's your name?",
+    romanian: "Îmi puteți spune, cum te numești?",
+    german: "Darf ich fragen, wie heißt du?",
+  },
+  {
+    group: "Introduce Yourself",
+    emoji: ["🙇‍♂️"],
+    chinese: "您贵姓？",
+    pinyin: "nín guì xìng?",
+    english: "What is your honorable surname?",
+    romanian: "Care este numele dvs. onorabil?",
+    german: "Wie lautet Ihr ehrenwerter Nachname?",
+  },
+  {
+    group: "Introduce Yourself",
+    emoji: ["👨"],
+    chinese: "我姓李，我叫李丽。",
+    pinyin: "wǒ xìng Lǐ, wǒ jiào Lǐ Lì.",
+    english: "My surname is Li, and my name is Li Li.",
+    romanian: "Numele meu de familie este Li, mă numesc Li Li.",
+    german: "Mein Nachname ist Li, ich heiße Li Li.",
+  },
+  {
+    group: "Introduce Yourself",
+    emoji: ["🙂"],
+    chinese: "您呢？",
+    pinyin: "nín ne?",
+    english: "And you?",
+    romanian: "Dar dvs.?",
+    german: "Und Sie?",
+  },
+  {
+    group: "Introduce Yourself",
+    emoji: ["🙂"],
+    chinese: "我姓Doe，我叫Doe John。",
+    pinyin: "wǒ xìng Doe, wǒ jiào Doe John.",
+    english: "My surname is Doe, and my name is Doe John.",
+    romanian: "Numele meu de familie este Doe, mă numesc Doe John.",
+    german: "Mein Nachname ist Doe, ich heiße Doe John.",
+  },
+  {
+    group: "Introduce Yourself",
+    emoji: ["😊"],
+    chinese: "我很高兴认识您。",
+    pinyin: "wǒ hěn gāoxìng rènshi nǐn.",
+    english: "I am very happy to meet you.",
+    romanian: "Mă bucur foarte mult să vă cunosc.",
+    german: "Es freut mich sehr, Sie kennenzulernen.",
+  },
+  {
+    group: "Introduce Yourself",
+    emoji: ["😊"],
+    chinese: "我也很高兴认识您。",
+    pinyin: "wǒ yě hěn gāoxìng rènshi nǐn.",
+    english: "I am also very happy to meet you.",
+    romanian: "Mă bucur și eu foarte mult să vă cunosc.",
+    german: "Es freut mich auch sehr, Sie kennenzulernen.",
+  },
+  {
+    group: "Introduce Yourself",
+    emoji: ["🙏"],
+    chinese: "谢谢，再见。",
+    pinyin: "xièxiè, zàijiàn.",
+    english: "Thank you, goodbye.",
+    romanian: "Mulțumesc, la revedere.",
+    german: "Danke, auf Wiedersehen.",
+  },
+  {
+    group: "Introduce Yourself",
+    emoji: ["👋"],
+    chinese: "再见。",
+    pinyin: "zàijiàn.",
+    english: "Goodbye.",
+    romanian: "La revedere.",
+    german: "Auf Wiedersehen.",
+  },
+  {
+    group: "Introduce Someone Else",
+    emoji: ["🤝"],
+    chinese: "请问，他叫什么名字？",
+    pinyin: "qǐng wèn, tā jiào shénme míngzi?",
+    english: "May I ask, what's their name?",
+    romanian: "Îmi puteți spune, cum se numește?",
+    german: "Darf ich fragen, wie heißt er/sie?",
+  },
+  {
+    group: "Introduce Someone Else",
+    emoji: ["🙂"],
+    chinese: "我介绍一下，他姓李，他叫李丽，他是我的朋友。",
+    pinyin:
+      "wǒ jièshào yíxià, tā xìng Lǐ, tā jiào Lǐ Lì, tā shì wǒ de péngyou.",
+    english:
+      "Let me introduce them. Their surname is Li, and their name is Li Li. They are my friend.",
+    romanian:
+      "Permiteți-mi să-l prezint. Numele său de familie este Li, iar numele său este Li Li. Este prietenul meu.",
+    german:
+      "Lassen Sie mich sie vorstellen. Ihr Nachname ist Li, sie heißt Li Li. Sie ist meine Freundin.",
+  },
+  {
+    group: "Introduce Someone Else",
+    emoji: ["🙂"],
+    chinese: "你好，你姓李，叫李丽，对吗？",
+    pinyin: "nǐ hǎo, nǐ xìng Lǐ, jiào Lǐ Lì, duì ma?",
+    english: "Hello, your surname is Li, and your name is Li Li, right?",
+    romanian:
+      "Salut, numele tău de familie este Li și te numești Li Li, corect?",
+    german: "Hallo, dein Nachname ist Li, und du heißt Li Li, richtig?",
+  },
+  {
+    group: "Introduce Someone Else",
+    emoji: ["😊"],
+    chinese: "我也很高兴认识您，再见。",
+    pinyin: "wǒ yě hěn gāoxìng rènshi nǐn, zàijiàn.",
+    english: "I am also happy to meet you, goodbye.",
+    romanian: "Mă bucur și eu să vă cunosc, la revedere.",
+    german: "Es freut mich auch, Sie kennenzulernen, auf Wiedersehen.",
+  },
+  {
+    group: "Ask About Career",
+    emoji: ["👩‍🏫"],
+    chinese: "请问，您是老师吗？",
+    pinyin: "qǐng wèn, nín shì lǎoshī ma?",
+    english: "May I ask, are you a teacher?",
+    romanian: "Îmi permiteți să întreb, sunteți profesor?",
+    german: "Darf ich fragen, sind Sie Lehrer/Lehrerin?",
+  },
+  {
+    group: "Ask About Career",
+    emoji: ["👨‍💻"],
+    chinese: "不是，我不是老师。我是电脑工程师，他是老师。",
+    pinyin:
+      "Bú shì, wǒ bú shì lǎoshī. wǒ shì diànnǎo gōngchéngshī, tā shì lǎoshī.",
+    english:
+      "No, I’m not a teacher. I’m a computer engineer, they are a teacher.",
+    romanian:
+      "Nu, nu sunt profesor. Sunt inginer de calculatoare, el/ea este profesor.",
+    german:
+      "Nein, ich bin kein Lehrer. Ich bin Computer-Ingenieur, er/sie ist Lehrer/in.",
+  },
+  {
+    group: "Ask About Career",
+    emoji: ["👩‍🏫"],
+    chinese: "是，我是老师，你们呢？你们干什么工作？",
+    pinyin: "shì, wǒ shì lǎoshī, nǐmen ne? nǐmen gàn shénme gōngzuò?",
+    english: "Yes, I am a teacher, and you? What do you do?",
+    romanian: "Da, sunt profesor, dar voi? Ce faceți?",
+    german: "Ja, ich bin Lehrer/in, und ihr? Was macht ihr?",
+  },
+  {
+    group: "Ask About Career",
+    emoji: ["👩‍💼"],
+    chinese: "我是秘书。",
+    pinyin: "wǒ shì mìshū.",
+    english: "I’m a secretary.",
+    romanian: "Sunt secretară.",
+    german: "Ich bin Sekretärin.",
+  },
+  {
+    group: "Ask About Career",
+    emoji: ["🎓"],
+    chinese: "我是学生。",
+    pinyin: "wǒ shì xuéshēng.",
+    english: "I’m a student.",
+    romanian: "Sunt student.",
+    german: "Ich bin Student.",
+  },
+  {
+    group: "Ask About Career",
+    emoji: ["💼"],
+    chinese: "这是我的名片。",
+    pinyin: "Zhè shì wǒ de míngpiàn.",
+    english: "This is my business card.",
+    romanian: "Aceasta este cartea mea de vizită.",
+    german: "Das ist meine Visitenkarte.",
+  },
+  {
+    group: "Countries, Languages, and Food",
+    emoji: ["🇨🇳"],
+    chinese: "中国",
+    pinyin: "Zhōngguó",
+    english: "China",
+    romanian: "China",
+    german: "China",
+  },
+  {
+    group: "Countries, Languages, and Food",
+    emoji: ["🏯"],
+    chinese: "汉语",
+    pinyin: "Hàn yǔ",
+    english: "Mandarin",
+    romanian: "Limba chineză",
+    german: "Hauptsprache",
+  },
+  {
+    group: "Countries, Languages, and Food",
+    emoji: ["🇬🇧"],
+    chinese: "英国",
+    pinyin: "Yīngguó",
+    english: "England",
+    romanian: "Anglia",
+    german: "England",
+  },
+  {
+    group: "Countries, Languages, and Food",
+    emoji: ["🇫🇷"],
+    chinese: "法国",
+    pinyin: "Fàguó",
+    english: "France",
+    romanian: "Franța",
+    german: "Frankreich",
+  },
+  {
+    group: "Countries, Languages, and Food",
+    emoji: ["🇪🇸"],
+    chinese: "西班牙",
+    pinyin: "Xībānyá",
+    english: "Spain",
+    romanian: "Spania",
+    german: "Spanien",
+  },
+  {
+    group: "Countries, Languages, and Food",
+    emoji: ["🇮🇹"],
+    chinese: "意大利",
+    pinyin: "Yìdàlì",
+    english: "Italy",
+    romanian: "Italia",
+    german: "Italien",
+  },
+  {
+    group: "Countries, Languages, and Food",
+    emoji: ["🇩🇪"],
+    chinese: "德国",
+    pinyin: "Déguó",
+    english: "Germany",
+    romanian: "Germania",
+    german: "Deutschland",
+  },
+  {
+    group: "Countries, Languages, and Food",
+    emoji: ["🇺🇸"],
+    chinese: "美国",
+    pinyin: "Měiguó",
+    english: "USA",
+    romanian: "Statele Unite",
+    german: "USA",
+  },
+  {
+    group: "Countries, Languages, and Food",
+    emoji: ["🇯🇵"],
+    chinese: "日本",
+    pinyin: "Rìběn",
+    english: "Japan",
+    romanian: "Japonia",
+    german: "Japan",
+  },
+  {
+    group: "Countries, Languages, and Food",
+    emoji: ["🇦🇹"],
+    chinese: "奥地利",
+    pinyin: "Àodìlì",
+    english: "Austria",
+    romanian: "Austria",
+    german: "Österreich",
+  },
+  {
+    group: "Countries, Languages, and Food",
+    emoji: ["🇨🇭"],
+    chinese: "瑞士",
+    pinyin: "Ruìshì",
+    english: "Switzerland",
+    romanian: "Elveția",
+    german: "Schweiz",
+  },
+  {
+    group: "Countries, Languages, and Food",
+    emoji: ["🌍"],
+    chinese: "国家",
+    pinyin: "guójiā",
+    english: "Country",
+    romanian: "Țară",
+    german: "Land",
+  },
+  {
+    group: "Common Vocabulary",
+    emoji: ["📍"],
+    chinese: "在",
+    pinyin: "zài",
+    english: "to be (in, on, at)",
+    romanian: "a fi (în, pe, la)",
+    german: "sich befinden (in, bei, an, auf)",
+  },
+  {
+    group: "Common Vocabulary",
+    emoji: ["📍"],
+    chinese: "这儿",
+    pinyin: "zhèr",
+    english: "here",
+    romanian: "aici",
+    german: "hier",
+  },
+  {
+    group: "Common Vocabulary",
+    emoji: ["📍"],
+    chinese: "哪儿",
+    pinyin: "nǎr",
+    english: "where",
+    romanian: "unde",
+    german: "wo",
+  },
+  {
+    group: "Countries, Languages, and Food",
+    emoji: ["🍲"],
+    chinese: "菜",
+    pinyin: "cài",
+    english: "dish (food)",
+    romanian: "fel de mâncare",
+    german: "Gericht",
+  },
+  {
+    group: "Countries, Languages, and Food",
+    emoji: ["🍽️"],
+    chinese: "饭",
+    pinyin: "fàn",
+    english: "food",
+    romanian: "mâncare",
+    german: "Essen",
+  },
+  {
+    group: "Countries, Languages, and Food",
+    emoji: ["🍽️"],
+    chinese: "英国菜",
+    pinyin: "Yīngguó cài",
+    english: "English food",
+    romanian: "Mâncare englezească",
+    german: "englisches Essen",
+  },
+  {
+    group: "Countries, Languages, and Food",
+    emoji: ["🗣️"],
+    chinese: "你是哪个国家人？",
+    pinyin: "nǐ shì nǎge guójiā rén?",
+    english: "Which country are you from?",
+    romanian: "Din ce țară ești?",
+    german: "Aus welchem Land kommst du?",
+  },
+  {
+    group: "Countries, Languages, and Food",
+    emoji: ["🇷🇴"],
+    chinese: "罗马尼亚",
+    pinyin: "Luómǎníyà",
+    english: "Romania",
+    romanian: "România",
+    german: "Rumänien",
   },
   // Add more vocabulary entries here
 ];
@@ -557,17 +836,22 @@ function displayVocabulary() {
   });
 
   // Display grouped vocabulary
-  Object.keys(groups).forEach((groupName) => {
+  Object.keys(groups).forEach((groupName, index) => {
     // Create a section for each group
     const groupSection = document.createElement("div");
     groupSection.classList.add("group-section");
 
     const groupHeader = document.createElement("h2");
     groupHeader.classList.add("group-header");
-    groupHeader.textContent = groupName;
+
+    // Set the initial arrow based on whether the group is open or closed
+    groupHeader.textContent = `${groupName} ${index === 0 ? "▼" : "►"}`;
 
     // Add toggle functionality to the header
     groupHeader.addEventListener("click", () => {
+      const isOpen = groupHeader.textContent.includes("▼");
+      groupHeader.textContent = `${groupName} ${isOpen ? "►" : "▼"}`;
+
       const vocabItems = groupSection.querySelectorAll(".vocab-item");
       vocabItems.forEach((item) => {
         item.classList.toggle("hidden");
@@ -576,29 +860,33 @@ function displayVocabulary() {
 
     groupSection.appendChild(groupHeader);
 
+    // Iterate over vocabulary items in the group
     groups[groupName].forEach((item) => {
       const vocabItem = document.createElement("div");
       vocabItem.classList.add("vocab-item");
+
+      // Initial visibility setting: Show items in the first group, hide others
+      if (index !== 0) vocabItem.classList.add("hidden");
 
       const emojiHTML = item.emoji
         .map((e) => `<span class="emoji">${e}</span>`)
         .join("");
 
       vocabItem.innerHTML = `
-		<div class="vocab-content">
-		  <div class="speaker-icon">🔊</div>
-		  <div class="chinese">
-			${emojiHTML}
-			<span class="chinese-character">${item.chinese}</span>
-			<span class="pinyin">${item.pinyin}</span>
-		  </div>
-		  <div class="translations">
-			<div class="translation translation-english">${item.english}</div>
-			<div class="translation translation-romanian">${item.romanian}</div>
-			<div class="translation translation-german">${item.german}</div>
-		  </div>
-		</div>
-		`;
+      <div class="vocab-content">
+        <div class="speaker-icon">🔊</div>
+        <div class="chinese">
+          ${emojiHTML}
+          <span class="chinese-character">${item.chinese}</span>
+          <span class="pinyin">${item.pinyin}</span>
+        </div>
+        <div class="translations">
+          <div class="translation translation-english">${item.english}</div>
+          <div class="translation translation-romanian">${item.romanian}</div>
+          <div class="translation translation-german">${item.german}</div>
+        </div>
+      </div>
+    `;
       groupSection.appendChild(vocabItem);
     });
 
